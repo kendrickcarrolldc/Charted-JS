@@ -1,0 +1,22 @@
+{
+  "name": "El_Charts",
+  "homepage": "https://github.com/kendrickcarrolldc/Charted-JS",
+  "authors": [
+    "Your Name <you@example.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "handsontable": "^0.29.0",
+    "google-chart": "^1.1.1",
+    "chart.js": "^2.4.0"
+  }
+}

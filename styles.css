@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+body { 
+	background-color: #3f3e3b; 
+	background-image: url(dark_wall_@2X.png);
+	font-family: sans-serif;
+		
+}
+
+#mHeader {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	padding-top: 40px;
+	padding-bottom: 40px;
+		
+}
+
+img {
+	width: 100%;
+}
+#chartdiv {
+	width		: 100%;
+	height		: 500px;
+	font-size	: 11px;
+}	
+
+
+#container {
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+  justify-content: space-around;
+}
+#table {
+	order: 1;
+	height: auto;
+	width: 50%;
+	padding: 5px
+}
+
+#chart {
+	order: 2;
+	box-sizing: border-box;
+	width: 50%;
+	border-right: 5px solid white;	
+	padding: 5px
+}
+
+header {
+	min-height: 60px;
+	background-color: rgba(54, 162, 235, 0.3);
+	padding-top: 5px;
+	padding-left:15px;
+	margin-bottom: 8px;
+	color: white;
+}
+
+
+section {
+	height: 700px;
+	
+	box-sizing: border-box;
+	
+}
+
+
+
+@media all and (max-width: 800px) {
+ 
+  #container {
+	display: flex;
+	flex-direction: column;
+}
+	#table {
+	order: 1;
+	width: 100%;
+		height: 280px
+}
+
+#chart {
+	order: 2;
+	box-sizing: border-box;
+	width: 100%;
+	border-right: 5px solid white;	
+}
+	
+}
+
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 747px) { 
+
+	#container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+		height: auto;
+}
+	#table {
+
+	order: 1;
+	width: 100%;
+		
+}
+
+#chart {
+	order: 2;
+	box-sizing: border-box;
+	width: 100%;
+	border-right: 5px solid white;	
+}
+	
+}
+
+ 
+
